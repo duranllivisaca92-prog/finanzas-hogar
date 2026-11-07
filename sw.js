@@ -1,7 +1,7 @@
 /* Service worker de Finanzas del hogar.
    Guarda la app para que abra sin conexión. Los datos NO pasan por aquí:
    las llamadas a la base de datos van directo a la red y la app guarda su propia copia. */
-const VERSION = 'fh-v1';
+const VERSION = 'fh-v2';
 const SHELL = [
   './', 'index.html', 'config.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'
